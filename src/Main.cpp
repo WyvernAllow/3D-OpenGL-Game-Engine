@@ -32,8 +32,6 @@ int main(int argc, char* argv[])
 
     engine::Texture tex("data/graphics/tex/gun.bmp");
     engine::Mesh mesh("data/graphics/models/gun.txt");
-    engine::Mesh kidNamedThumb("data/graphics/models/white.txt");
-    engine::Texture kidNamedThumbTex("data/graphics/tex/white.bmp");
 
     engine::Camera cam(90, (float)screenWidth / screenHeight, 0.01, 1000.0f);
 
